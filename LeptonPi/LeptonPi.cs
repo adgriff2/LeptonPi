@@ -36,28 +36,27 @@ namespace LeptonPi
         {
             uint width = 80, height = 60, bytes_per_pixel = 2, bytes_per_header = 4;
             TcpClient client = new TcpClient();
-            client.Connect(textBox1.Text, 5000);
+            client.Connect(textBox1.Text,Convert.ToInt32(textBox2.Text));
             Stream s = client.GetStream();
             BinaryReader r = new BinaryReader(s);
             uint VOSPI_PACKET_SIZE = width * bytes_per_pixel + bytes_per_header;
-            byte[] data = new byte[height * VOSPI_PACKET_SIZE];
+            byte[] data = new byte[10 * height * VOSPI_PACKET_SIZE];
             ushort[] grayscale = new ushort[height * width];
             //byte[] headers = new byte[bytes_per_header * height];
             uint i, j, max, min;
             int n = 1;
-            Bitmap bmp = new Bitmap((int)width * 2, (int)height);
-            //pictureBox1.Image = bmp;
+            Bitmap bmp = new Bitmap((int)width, (int)height);
             uint i_width, i_vospi;
 
             while (n > 0)
             {
                 n = r.Read(data, 0, data.Length);
-                if (n < data.Length)
+                if (n < height * VOSPI_PACKET_SIZE)
                 {
                     continue;
                 }
                 max = 0;
-                min = 18000;
+                min = UInt32.MaxValue;
                 for (i = 0; i < height; i++)
                 {
                     //for (j = 0; j < bytes_per_header; j++)
