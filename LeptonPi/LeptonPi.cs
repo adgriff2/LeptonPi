@@ -18,6 +18,7 @@ namespace LeptonPi
 {
     public partial class LeptonPi : Form
     {
+        public Bitmap image;
         public LeptonPi()
         {
             InitializeComponent();
@@ -27,7 +28,8 @@ namespace LeptonPi
 
         private void updateImage(Bitmap bmp)
         {
-            pictureBox1.BackgroundImage = bmp;
+            image = new Bitmap(bmp);
+            pictureBox1.BackgroundImage = image;
             pictureBox1.Update();
             pictureBox1.Refresh();
         }

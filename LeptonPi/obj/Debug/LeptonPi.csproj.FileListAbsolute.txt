@@ -25,3 +25,12 @@ C:\Users\adgriff2\Documents\Visual Studio 2013\Projects\LeptonPi\LeptonPi\obj\De
 C:\Users\adgriff2\Documents\Visual Studio 2013\Projects\LeptonPi\LeptonPi\obj\Debug\LeptonPi.LeptonPi.resources
 C:\Users\adgriff2\Documents\Visual Studio 2013\Projects\LeptonPi\LeptonPi\obj\Debug\LeptonPi.Properties.Resources.resources
 C:\Users\adgriff2\Documents\Visual Studio 2013\Projects\LeptonPi\LeptonPi\obj\Debug\LeptonPi.csproj.GenerateResource.Cache
+C:\Users\agriffin\Documents\Visual Studio 2013\Projects\LeptonPi\LeptonPi\bin\Debug\LeptonPi.exe.config
+C:\Users\agriffin\Documents\Visual Studio 2013\Projects\LeptonPi\LeptonPi\obj\Debug\LeptonPi.exe
+C:\Users\agriffin\Documents\Visual Studio 2013\Projects\LeptonPi\LeptonPi\obj\Debug\LeptonPi.pdb
+C:\Users\agriffin\Documents\Visual Studio 2013\Projects\LeptonPi\LeptonPi\bin\Debug\LeptonPi.exe
+C:\Users\agriffin\Documents\Visual Studio 2013\Projects\LeptonPi\LeptonPi\bin\Debug\LeptonPi.pdb
+C:\Users\agriffin\Documents\Visual Studio 2013\Projects\LeptonPi\LeptonPi\obj\Debug\LeptonPi.csprojResolveAssemblyReference.cache
+C:\Users\agriffin\Documents\Visual Studio 2013\Projects\LeptonPi\LeptonPi\obj\Debug\LeptonPi.LeptonPi.resources
+C:\Users\agriffin\Documents\Visual Studio 2013\Projects\LeptonPi\LeptonPi\obj\Debug\LeptonPi.Properties.Resources.resources
+C:\Users\agriffin\Documents\Visual Studio 2013\Projects\LeptonPi\LeptonPi\obj\Debug\LeptonPi.csproj.GenerateResource.Cache
